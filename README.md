@@ -86,7 +86,8 @@ Delivered a working prototype where users can:
 - See **live-streaming incidents** update in real time.  
 - Explore how data pipelines (Kafka + ML) connect to a user-facing dashboard.  
 
-**Link:** [sf-crime-route-analyzer](https://github.com/sunnysidesk/SF-Crime-Aware-Navigator)
+**Link:** [sf-crime-route-analyzer](https://github.com/sunnysidesk/SF-Crime-Aware-Navigator)  
+
 ---
 
 ## ⚡ Skills Highlight
