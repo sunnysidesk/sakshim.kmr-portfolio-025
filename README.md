@@ -14,7 +14,7 @@ This portfolio highlights anonymized case studies from my work across consulting
 - Combined GA4 data with reward engagement logs.  
 **Outcome:**  
 Pinpointed steep 1st-month drop-offs, identified seasonal retention trends, and highlighted UX bottlenecks (only 6% claim → redemption).  
-**Artifacts:** [Anonymized Cohort Analysis Slides](link)
+**Link:** [Anonymized Cohort Analysis Slides](retention-funnel-loyalty)
 
 ---
 
@@ -38,7 +38,7 @@ Identified 7 high-opportunity geo-keywords, optimized localized SEO strategy, an
 - Embedded outputs into optimization platform with custom business rules.  
 **Outcome:**  
 Improved allocation accuracy, increased ROI by 13%, and improved forecast reliability by 8%.  
-**Artifacts:** [Example Notebook Snippet](link)
+**Link:** [Example Notebook Snippet](mmm-forecasting)
 
 ---
 
@@ -51,19 +51,6 @@ Improved allocation accuracy, increased ROI by 13%, and improved forecast reliab
 **Outcome:**  
 Created a proof-of-concept matching engine that returns top-k compatible profiles in milliseconds, demonstrating how vector similarity search powers recommendation systems.  
 **Repo:** [MatchMadeinML](https://github.com/sunnysidesk/MatchMadeinML)  
-
----
-
-## 🤖 Conversational AI Chatbot (NLP Homework Project)
-**Problem:** Build a chatbot capable of understanding user queries and generating contextually relevant responses.  
-**Approach:**  
-- Fine-tuned a transformer-based language model (BioBERT/GPT-like architecture) on a mental-health dialogue dataset.  
-- Implemented multi-class classification for user intent (e.g., Normal, Stress, Anxiety).  
-- Added response generation module + evaluation metrics (precision, recall, F1).  
-- Extended to multi-turn dialogue handling using conversation state tracking.  
-**Outcome:**  
-Built a proof-of-concept mental health chatbot that detects user intent and provides empathetic responses. Demonstrated ability to integrate NLP modeling, classification, and response generation into one pipeline.  
-**Artifacts:** [Notebook](link)
 
 ---
 
@@ -80,17 +67,36 @@ Built a proof-of-concept mental health chatbot that detects user intent and prov
 **Outcome:**  
 Built a proof-of-concept **mental health support chatbot** that detects user intent and provides empathetic responses. Demonstrated skills in **deep learning, text classification, and conversational AI design**. The framework is adaptable to other domains (e.g., customer service or product support).  
 
-**Artifacts:** [Notebook](link)  
+**Link:** [Notebook](mental-health-chatbot)  
 
 ---
 
+## 🗺️ SF Crime Aware Navigator (Streamlit + Kafka App)
+**Problem:** Urban travelers often lack real-time visibility into neighborhood safety. Our team set out to design a tool that could forecast risk on walking routes and surface live incident data.  
+
+**Approach:**  
+- I built the **Streamlit app** frontend, integrating routing (OpenRouteService API), map overlays, and interactive controls.  
+- Connected a pre-trained ML model for route risk prediction.  
+- Integrated **Kafka event producers** to simulate live crime incidents streaming into the app sidebar.  
+- Packaged everything into a lightweight UI recruiters and stakeholders could run locally.  
+
+**Outcome:**  
+Delivered a working prototype where users can:  
+- Enter start & end points → receive a predicted safety score and suggested safer routes.  
+- See **live-streaming incidents** update in real time.  
+- Explore how data pipelines (Kafka + ML) connect to a user-facing dashboard.  
+
+**Link:** [sf-crime-route-analyzer](https://github.com/sunnysidesk/SF-Crime-Aware-Navigator)
+---
+
 ## ⚡ Skills Highlight
-- SQL, Python (pandas, scikit-learn, statsmodels, matplotlib)  
-- Experimentation & Causal Inference (A/B tests, geo tests, incrementality)  
-- Predictive Modeling (segmentation, regression, time series)  
-- Visualization (Tableau, Looker, Power BI)  
-- Data pipeline familiarity (GA4, GSC, dbt, BigQuery, Supabase)  
+- **Programming & Data**: Python (pandas, scikit-learn, statsmodels, matplotlib), SQL  
+- **Marketing Science**: Marketing Mix Modeling (MMM), incrementality testing, attribution, cohort & funnel analysis  
+- **Experimentation & Causal Inference**: A/B tests, geo experiments, uplift modeling, causal inference methods  
+- **Machine Learning & NLP**: Predictive modeling (regression, classification, time series), conversational AI (transformer fine-tuning, FAISS similarity search)  
+- **Visualization & BI**: Tableau, Looker, Power BI, Streamlit dashboards  
+- **Data Pipelines & Tools**: Google Analytics 4 (GA4), Google Search Console (GSC), Supabase, Kafka event streaming
 
 
 
-📬 [LinkedIn](https://www.linkedin.com/in/sakshikmr/) | [GitHub](https://github.com/sunnysidesk) | [Email](sakshim.kmr11@gmail.com)
+📬 [LinkedIn](https://www.linkedin.com/in/sakshikmr/)   |   [GitHub](https://github.com/sunnysidesk)   |   [Email](sakshim.kmr11@gmail.com)
