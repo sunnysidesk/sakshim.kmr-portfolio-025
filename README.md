@@ -1,6 +1,6 @@
 # Sakshi Kumar — Data Science & Analytics Portfolio
 
-Hi, I’m Sakshi 🏖️ 
+Hi, I’m Sakshi 🏖️  
 I specialize in marketing science, product analytics, and experimentation — turning messy datasets into insights and frameworks that guide real business decisions.  
 This portfolio highlights anonymized case studies from my work across consulting, SaaS, and digital marketing.
 
