@@ -1,4 +1,4 @@
-# Sakshi Kumar — Data Science & Analytics Portfolio
+# Sakshi Kumar's Data Science & Analytics Portfolio
 
 Hi, I’m Sakshi 🏖️  
 I specialize in marketing science, product analytics, and experimentation — turning messy datasets into insights and frameworks that guide real business decisions.  
@@ -26,7 +26,7 @@ Pinpointed steep 1st-month drop-offs, identified seasonal retention trends, and 
 - Visualized feature importance (CTR, impressions, intent).  
 **Outcome:**
 Identified 7 high-opportunity geo-keywords, optimized localized SEO strategy, and boosted engagement conversion visibility.  
-**Artifacts:** [SEO Modeling Slides](link)
+**Link:** [SEO + Engagement Project](seo-engagement-modeling)
 
 ---
 
