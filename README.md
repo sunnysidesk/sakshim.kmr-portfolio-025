@@ -65,13 +65,31 @@ Created a proof-of-concept matching engine that returns top-k compatible profile
 Built a proof-of-concept mental health chatbot that detects user intent and provides empathetic responses. Demonstrated ability to integrate NLP modeling, classification, and response generation into one pipeline.  
 **Artifacts:** [Notebook](link)
 
+---
+
+## 🤖 Conversational AI Chatbot (NLP Project)
+**Problem:** Design a chatbot capable of detecting user intent and providing contextually relevant responses — a core challenge in healthcare and customer support applications.  
+
+**Approach:**  
+- Developed a pipeline combining **NLP classification + response generation**.  
+- Fine-tuned a transformer-based language model on a labeled dataset of mental-health dialogues.  
+- Implemented **multi-class classification** for user states (e.g., Normal, Stress, Anxiety, Depression).  
+- Integrated **multi-turn dialogue handling** with conversation state tracking.  
+- Evaluated performance with **precision, recall, F1-score**, ensuring reliable predictions.  
+
+**Outcome:**  
+Built a proof-of-concept **mental health support chatbot** that detects user intent and provides empathetic responses. Demonstrated skills in **deep learning, text classification, and conversational AI design**. The framework is adaptable to other domains (e.g., customer service or product support).  
+
+**Artifacts:** [Notebook](link)  
+
+---
 
 ## ⚡ Skills Highlight
 - SQL, Python (pandas, scikit-learn, statsmodels, matplotlib)  
 - Experimentation & Causal Inference (A/B tests, geo tests, incrementality)  
 - Predictive Modeling (segmentation, regression, time series)  
 - Visualization (Tableau, Looker, Power BI)  
-- Data pipeline familiarity (GA4, GSC, dbt, BigQuery, Supabase)
+- Data pipeline familiarity (GA4, GSC, dbt, BigQuery, Supabase)  
 
 
 
