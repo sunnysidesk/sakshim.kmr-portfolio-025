@@ -14,7 +14,7 @@ This portfolio highlights anonymized case studies from my work across consulting
 - Combined GA4 data with reward engagement logs.  
 **Outcome:**  
 Pinpointed steep 1st-month drop-offs, identified seasonal retention trends, and highlighted UX bottlenecks (only 6% claim → redemption).  
-**Link:** [Anonymized Cohort Analysis Slides](retention-funnel-loyalty)
+**Link:** [Dashboarding and Funnel Analysis](retention-funnel-loyalty)
 
 ---
 
