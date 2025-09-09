@@ -12,7 +12,8 @@ This portfolio highlights anonymized case studies from my work across consulting
 - Built SQL pipelines + Python cohort analysis.  
 - Designed retention heatmaps and funnel journeys (sign-up → claim → redeem).  
 - Combined GA4 data with reward engagement logs.  
-**Outcome:** Pinpointed steep 1st-month drop-offs, identified seasonal retention trends, and highlighted UX bottlenecks (only 6% claim → redemption).  
+**Outcome:**  
+Pinpointed steep 1st-month drop-offs, identified seasonal retention trends, and highlighted UX bottlenecks (only 6% claim → redemption).  
 **Artifacts:** [Anonymized Cohort Analysis Slides](link)
 
 ---
@@ -23,7 +24,8 @@ This portfolio highlights anonymized case studies from my work across consulting
 - Merged GA4 + GSC + Ahrefs datasets.  
 - Built logistic regression + Lasso models to rank keywords by engagement probability.  
 - Visualized feature importance (CTR, impressions, intent).  
-**Outcome:** Identified 7 high-opportunity geo-keywords, optimized localized SEO strategy, and boosted engagement conversion visibility.  
+**Outcome:**
+Identified 7 high-opportunity geo-keywords, optimized localized SEO strategy, and boosted engagement conversion visibility.  
 **Artifacts:** [SEO Modeling Slides](link)
 
 ---
@@ -34,7 +36,8 @@ This portfolio highlights anonymized case studies from my work across consulting
 - Developed econometric models (regression + UCMs) in Python.  
 - Automated MMM workflows and standardized scenario simulations.  
 - Embedded outputs into optimization platform with custom business rules.  
-**Outcome:** Improved allocation accuracy, increased ROI by 13%, and improved forecast reliability by 8%.  
+**Outcome:**
+Improved allocation accuracy, increased ROI by 13%, and improved forecast reliability by 8%.  
 **Artifacts:** [Example Notebook Snippet](link)
 
 ---
