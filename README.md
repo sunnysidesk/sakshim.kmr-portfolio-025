@@ -24,7 +24,7 @@ Pinpointed steep 1st-month drop-offs, identified seasonal retention trends, and 
 - Merged GA4 + GSC + Ahrefs datasets.  
 - Built logistic regression + Lasso models to rank keywords by engagement probability.  
 - Visualized feature importance (CTR, impressions, intent).  
-**Outcome:**
+**Outcome:**  
 Identified 7 high-opportunity geo-keywords, optimized localized SEO strategy, and boosted engagement conversion visibility.  
 **Link:** [SEO + Engagement Project](seo-engagement-modeling)
 
@@ -36,11 +36,35 @@ Identified 7 high-opportunity geo-keywords, optimized localized SEO strategy, an
 - Developed econometric models (regression + UCMs) in Python.  
 - Automated MMM workflows and standardized scenario simulations.  
 - Embedded outputs into optimization platform with custom business rules.  
-**Outcome:**
+**Outcome:**  
 Improved allocation accuracy, increased ROI by 13%, and improved forecast reliability by 8%.  
 **Artifacts:** [Example Notebook Snippet](link)
 
 ---
+
+## 💞 MatchMadeinML (Vector Search for Dating Profiles)
+**Problem:** Build a system that recommends compatible dating profiles based on interests and personality traits.  
+**Approach:**  
+- Implemented **FAISS** (Facebook AI Similarity Search) for efficient nearest-neighbor lookups.  
+- Engineered embeddings from user profiles (text + categorical features).  
+- Designed matching pipeline with Python + FAISS to handle high-dimensional vectors.  
+**Outcome:**  
+Created a proof-of-concept matching engine that returns top-k compatible profiles in milliseconds, demonstrating how vector similarity search powers recommendation systems.  
+**Repo:** [MatchMadeinML](https://github.com/sunnysidesk/MatchMadeinML)  
+
+---
+
+## 🤖 Conversational AI Chatbot (NLP Homework Project)
+**Problem:** Build a chatbot capable of understanding user queries and generating contextually relevant responses.  
+**Approach:**  
+- Fine-tuned a transformer-based language model (BioBERT/GPT-like architecture) on a mental-health dialogue dataset.  
+- Implemented multi-class classification for user intent (e.g., Normal, Stress, Anxiety).  
+- Added response generation module + evaluation metrics (precision, recall, F1).  
+- Extended to multi-turn dialogue handling using conversation state tracking.  
+**Outcome:**  
+Built a proof-of-concept mental health chatbot that detects user intent and provides empathetic responses. Demonstrated ability to integrate NLP modeling, classification, and response generation into one pipeline.  
+**Artifacts:** [Notebook](link)
+
 
 ## ⚡ Skills Highlight
 - SQL, Python (pandas, scikit-learn, statsmodels, matplotlib)  
@@ -48,14 +72,6 @@ Improved allocation accuracy, increased ROI by 13%, and improved forecast reliab
 - Predictive Modeling (segmentation, regression, time series)  
 - Visualization (Tableau, Looker, Power BI)  
 - Data pipeline familiarity (GA4, GSC, dbt, BigQuery, Supabase)
-
----
-
----
-
-## 🔗 Related Projects
-
-- [MatchMadeinML](https://github.com/sunnysidesk/MatchMadeinML) – A FAISS-based matching engine that recommends compatible dating profiles using vector similarity search.
 
 
 
