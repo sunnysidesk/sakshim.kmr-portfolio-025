@@ -51,4 +51,12 @@ Improved allocation accuracy, increased ROI by 13%, and improved forecast reliab
 
 ---
 
+---
+
+## 🔗 Related Projects
+
+- [MatchMadeinML](https://github.com/sunnysidesk/MatchMadeinML) – A FAISS-based matching engine that recommends compatible dating profiles using vector similarity search.
+
+
+
 📬 [LinkedIn](https://www.linkedin.com/in/sakshikmr/) | [GitHub](https://github.com/sunnysidesk) | [Email](sakshim.kmr11@gmail.com)
