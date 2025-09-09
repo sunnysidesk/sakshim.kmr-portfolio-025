@@ -1,62 +1,72 @@
-# SEO & Keyword Analysis – KWSM Project
+# SEO & Keyword Analysis Project
 
-This project integrates Google Analytics 4 (GA4), Google Search Console (GSC), and Ahrefs data to evaluate KWSM’s organic search performance. The analysis focuses on identifying high-intent, commercially valuable keywords that not only rank but also **engage and convert**.
+This project was completed as part of a graduate practicum, where the goal was to help a digital marketing agency improve its organic search strategy. The work focused on **integrating analytics data, applying machine learning, and generating a roadmap for better keyword targeting and user engagement**.
+
+---
+
+## 📖 Project Overview
+
+Traditional SEO reporting often stops at search volume and rankings. In this project, we went further by combining **behavioral analytics (GA4)** with **search performance data (GSC + third-party SEO tools)** to identify keywords that don’t just rank, but also **engage and convert**.  
+
+The final deliverable was a modeling framework and set of recommendations that any agency could adapt to optimize their organic search presence.
 
 ---
 
 ## 🔍 Key Results
 
-- **Organic search is the top acquisition channel** but has **low user retention**. Even high-performing pages show a near 1:1 ratio of new to active users.
-- **Engagement patterns show seasonality**: steady activity from March–July, spike in September, drop in October, then leveling off.
-- **Direct traffic users engage the longest**, reflecting high brand intent, while organic users bounce earlier.
-- **Merged dataset creation**: GA4 + GSC (on URL) + Ahrefs (on Keyword) enabled advanced modeling of keywords beyond raw traffic numbers.
-- **Model performance**:  
-  - Lasso Regression explained **77% of SERP ranking variation**  
-  - Key drivers: **CTR, impressions, and keyword intent type**  
-  - Longer word count correlated negatively with engagement
+- **Organic traffic attracts new users** but typically shows **low retention**, highlighting a need for content aligned with long-term engagement.  
+- **User engagement patterns were seasonal**, spiking in certain months before leveling off — a sign of volatility in organic behavior.  
+- **Direct traffic users engaged the longest**, reflecting strong brand familiarity, while organic users disengaged more quickly.  
+- **Modeling approach**:  
+  - Lasso regression explained **~77% of SERP ranking variation**.  
+  - Top predictors: **CTR, impressions, and keyword intent type**.  
+  - Longer word count correlated negatively with engagement, suggesting **shorter, intent-focused pages** perform better.
 
 ---
 
 ## 📊 Insights
 
-- **Geo mismatches**: High-demand cities show inconsistent local SEO coverage. Click-through rates (CTR) are not aligned with search volume.
-- **Keyword quality > quantity**: Intent (navigational, transactional) is more predictive of rank and engagement than raw traffic volume.
-- **Blog saturation**: The word *“blog”* appeared **4,000+ times** across site content. Heavy reliance on blog pages may dilute engagement.
-- **Short, intent-driven pages outperform** longer ones in driving meaningful engagement.
+- **Geo-targeting gaps**: Demand across regions did not always match localized SEO coverage.  
+- **Keyword quality > quantity**: Intent (navigational, transactional) predicted ranking and engagement more strongly than raw volume.  
+- **Content mix imbalance**: Heavy reliance on blog content diluted engagement; commercial and transactional pages offered better conversion potential.  
+- **Engagement probability matters**: High traffic ≠ high engagement. Keywords with strong engagement signals became prime targets.
 
 ---
 
 ## 🚀 Strategic Recommendations
 
-1. **Local SEO Focus**  
-   Optimize for high-demand cities where search volume is strong but CTR is weak. Tailor localized content to capture those opportunities.
+1. **Strengthen Local SEO**  
+   Prioritize regions where search demand is high but CTR or engagement is underperforming.  
 
-2. **Prioritize High-Opportunity Keywords**  
-   Target the **top 7 keywords by Opportunity Score** (high intent, low difficulty, favorable predicted rank). Only 2 currently show conversion — quick wins are available.
+2. **Target High-Opportunity Keywords**  
+   Build an **Opportunity Score** combining rankability (volume + difficulty) with predicted engagement.  
 
-3. **Shift Content Strategy**  
-   - Reduce reliance on long-form blog posts.  
-   - Build **shorter, intent-focused landing pages** designed to convert.  
+3. **Refocus Content Strategy**  
+   - Move away from long, generic blog posts.  
+   - Develop **short, intent-driven landing pages** optimized for conversion.  
 
-4. **Behavior-Driven SEO**  
-   Incorporate **Predicted Engagement Probability** (from GA4) into keyword targeting — not just rankability, but likelihood of keeping users engaged.
+4. **Behavior-Informed SEO**  
+   Integrate **engagement probability metrics** from GA4 into keyword prioritization, not just rankability scores.  
 
 5. **Technical SEO Enhancements**  
-   - Strengthen CTR by refining meta titles and descriptions.  
-   - Leverage schema markup for service pages.  
+   Optimize metadata and apply schema markup to improve CTR and visibility.
 
 ---
 
 ## 🛠️ Methods & Models
 
-- **Data pipeline**: GSC + GA4 + Ahrefs merged and expanded by keywords  
-- **Modeling techniques**:  
-  - **Lasso Regression** for feature selection  
-  - **Logistic Regression** for engagement prediction (Accuracy 0.77, Recall 0.80, F1 0.75)  
-  - **Elastic Net and Random Forest** explored in appendices  
+- **Data Integration Pipeline**  
+  - Joined GA4 & GSC on URL  
+  - Expanded dataset by exploding keyword values  
+  - Merged with third-party SEO data on keyword  
+
+- **Modeling Techniques**  
+  - **Lasso Regression** → Feature selection & ranking predictors of SERP performance  
+  - **Logistic Regression** → Engagement prediction (Accuracy 0.77, Recall 0.80, F1 Score 0.75)  
+  - **Elastic Net & Random Forest** → Used for comparison and validation  
 
 ---
 
 ## 📌 Takeaway
 
-This project demonstrates how blending **behavioral analytics** with **SEO keyword modeling** moves beyond ranking for clicks — it helps identify **keywords that rank, engage, and convert**, guiding a roadmap for scalable organic growth.
+By merging search and behavioral analytics, this project demonstrates how data science can transform SEO from chasing rankings into building **strategies that rank, engage, and convert**. The framework is generalizable to any content-driven business looking to optimize organic performance.
